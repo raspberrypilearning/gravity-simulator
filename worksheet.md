@@ -30,9 +30,9 @@ You can recreate the effects of the force of gravity on Earth in this Scratch si
 
 1. To create a variable, click on `Variables` in the blocks palette and then click `Make a Variable`. The New Variable window opens and asks you to type a name for your variable.
 1. Name the first variable `gravity` and ensure that `For all sprites` is checked before clicking **OK**.
-	A variable holds a value that can be changed. The time variable you have created is an example of a value that can be changed and used inside different scripts. You will use it to store the reaction times of players. 
+	A variable holds a value that can be changed. 
 1. You’ll see some orange blocks are added to your `Variables` area called `gravity`, and a small counter box will appear on the stage.
-1. You need to make another vairable in the same way as before called `velocity`.
+1. You need to make another variable in the same way as before called `velocity`.
 
 ## Setting the start position 
 
