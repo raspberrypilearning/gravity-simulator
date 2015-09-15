@@ -58,13 +58,13 @@ You can recreate the effects of the force of gravity on Earth in this Scratch si
 
 ## Landing on the ground
 
-The program so far simulates gravity by droping Mooncake from the top of the screen to the bottom but she isn't landing on the carefully drawn earth. You can change this by adding a **conditional** statement inside the simulation loop. 
+The program so far simulates gravity by dropping Mooncake from the top of the screen to the bottom, but she isn't landing on the carefully drawn earth. You can change this by adding a **conditional** statement inside the simulation loop. 
 
 1. Select the `control` blocks area and drag an `if` block onto the scripts area. Place it inside the forever loop.
 
 1. Move the `change velocity by Gravity * 0.1` block and `change y by velocity` block to inside the `if` block.
 
-1. Next set your condition to the `if` block using a `not` operator block which should be placed into the diamond shape next to the word if. Then take the `touching colour?` sensing block and place it into the space in the `not` operator block. 
+1. Next set your condition to the `if` block using a `not` operator block which should be placed into the diamond shape next to the word `if`. Then take the `touching colour?` sensing block and place it into the space in the `not` operator block. 
 
 1. The colour shown in the `touching colour` block needs to match the stage background earth green colour. To match them exactly, click on the coloured box inside `touching colour` and the mouse pointer will transform into a little droplet icon. Move your mouse onto the Earth in the Scratch preview window and click on the green colour. The block will change to display the same colour.
 
