@@ -30,7 +30,7 @@ You can recreate the effects of the force of gravity on Earth in this Scratch si
 
 1. To create a variable, click on `Variables` in the blocks palette and then click `Make a Variable`. The New Variable window opens and asks you to type a name for your variable.
 1. Name the first variable `gravity` and ensure that `For all sprites` is checked before clicking **OK**.
-	A variable holds a value that can be changed. 
+	A variable holds a value that can be changed, and can be used elsewhere in your program. 
 1. You’ll see some orange blocks are added to your `Variables` area called `gravity`, and a small counter box will appear on the stage.
 1. You need to make another variable in the same way as before called `velocity`.
 
@@ -115,5 +115,5 @@ To demonstrate the effects of different gravitational forces from other planets 
 
 - Could you add matching background images for each of your planets?
 - If you have a [Sense HAT](https://www.raspberrypi.org/products/sense-hat/), could you use it to trigger the timer instead of pressing space or numbers on the keyboard?
-- Enjoyed this Astro Pi mission resource? Why not try one of our others like this [Astronaut reaction time game](https://www.raspberrypi.org/learning/astronaut-reaction-times/)
+- Have you enjoyed this Astro Pi mission resource? Why not try one of our others, like this [Astronaut reaction time game](https://www.raspberrypi.org/learning/astronaut-reaction-times/)
 
