@@ -4,7 +4,7 @@ In space, it feels like everything is floating. This is because everything becom
 
 To this day, no one really knows what gravity “is”. But we do know how gravity works. Every piece of matter in the universe attracts every other piece of matter. The more matter there is, the stronger the attraction; but the attraction decreases when the distance between the pieces of matter increases. For this reason, the planets, which have much less mass than the Sun, orbit the Sun, and the Moon orbits the Earth. Because we walk on the surface of a huge lump of matter, the Earth, these basic facts are not at all obvious. 
 	
-Sir Isaac Newton is rumoured to have stumbled upon this notion of gravity when he witnessed an apple fall from a tree. 
+Sir Isaac Newton is rumoured to have stumbled upon this notion of gravity when he watched an apple fall from a tree. 
 
 You can recreate the effects of the force of gravity on Earth in this Scratch simulation!
 
@@ -12,7 +12,7 @@ You can recreate the effects of the force of gravity on Earth in this Scratch si
 
 1. To begin, open Scratch by clicking on **Menu** and **Programming**, followed by **Scratch**.
 1. Create a new file by selecting **File** and **New**.
-1. Delete the Scratch Cat sprite by right clicking on it and selecting **Delete** from the menu that is displayed.
+1. Delete the Scratch cat sprite by right clicking on it and selecting **Delete** from the menu that is displayed.
 1. For this project, you need to create a new background to act as the Earth. To do this, click on `stage` in the sprites palette and then click on `Backgrounds` next to the `scripts` tab.
 1. Click on `Paint` to draw your own background. Select the rectangle icon and a green colour. It is important that you fill the rectangle with one solid colour. Once you are happy with your stage design click **OK**. 	
 1. You can use the Scratch cat sprite or alterntively you can use our [Mooncake - the Astro Cat sprite](files/Astro-cat.png). If your Raspberry Pi is connected to the internet you can download this sprite using the link. Save the image somewhere that you will be able to find it later on your Raspberry Pi.
@@ -20,7 +20,7 @@ You can recreate the effects of the force of gravity on Earth in this Scratch si
 
 	![import new sprite](images/import-sprite-icon.png)
 
-1. In order for your garvity simulator to work with this sprite, you will need to `set the costume center` of Mooncake the Astro Cat by selecting the sprite, clicking on `Costumes` followed by `Edit`. In the Paint Editor window you will see a button with a plus symbol on it. When clicked it will show a crosshair over the sprite which you will be able to move with your mouse. Move it so that it selects the lower half of Mooncake like this and when you are happy click ok:
+1. In order for your gravity simulator to work with this sprite, you will need to `set the costume center` of Mooncake the Astro Cat by selecting the sprite, clicking on `Costumes` followed by `Edit`. In the Paint Editor window you will see a button with a plus symbol on it. When clicked it will show a crosshair over the sprite which you will be able to move with your mouse. Move it so that it selects the lower half of Mooncake like this and when you are happy click ok:
 
 	![Set costume center](images/set-costume-center.png)
 	  	
