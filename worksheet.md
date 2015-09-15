@@ -47,11 +47,9 @@ You can recreate the effects of the force of gravity on Earth in this Scratch si
 
 	To change the velocity variable, you can use this calculation, `Velocity = Gravity x Timestep` or `-9.81` multiplied by `0.1`. The value `0.1` is a time step in this program, so that each time around the loop it will be multiplied by `gravity` or `-9.81` and output the velocity. 
 	
-1. Place a `change Velocity by 0` variable block inside the forever loop. Next drop a multiplyer operator block `0 * 0` and place it inside the space at the end of the variable block. 
+1. Place a `change Velocity by 0` variable block inside the forever loop. Next take a multiplier operator block `0 * 0` and place it inside the space at the end of the variable block. 
 	
 1. Drag the `gravity` variable and place it in the right side of the multiplyer operator and then type `0.1` in the other. 	
-
-	
 1. The last block needed is a motion block to move the Mooncake sprite. Use the `change y by` motion block and to add it into the loop. Then drag the `velocity` variable and add it into the white space in the motion block. The script should look like this:
 
 	![Gravity Simulation Script 1](images/script1.png)
