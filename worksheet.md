@@ -104,7 +104,7 @@ To demonstrate the effects of different gravitational forces from other planets 
 
 	- Jupiter = `-24.8`
 	- The Moon = `-1.62`
-	- On Pluto = `-0.65`
+	- Pluto = `-0.65`
 	- Earth = `-9.81`
 
 	![switching planets](images/planets-scripts.png)
