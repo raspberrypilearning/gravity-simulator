@@ -92,7 +92,7 @@ In your gravity simulator Mooncake falls and lands, but so far she can not act l
 
 We know that `-9.81` is a value that calculates the force of gravity on our planet Earth. The force of gravity that pulls everything towards the Earth can be calculated as the mass (size and weight) times the acceleration of gravity. Because we roughly know how large planets are in our solar system it means that we can apply the same calculation to them. For example, the force of gravity on the Mars is `3.71` whereas on a much larger planet like Jupiter it is `24.8`! 
 
-To demonstrate the effects of different gravitational forces from other planets on Mooncake you can simply add scripts to set the garvity variable. 
+To demonstrate the effects of different gravitational forces from other planets on Mooncake you can simply add scripts to set the gravity variable. 
 
 1. Place a `When space clicked` control block onto the scripts area of the sprite. Click on the drop down box and replace `space` with `1`.
 
