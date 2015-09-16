@@ -112,6 +112,6 @@ To demonstrate the effects of different gravitational forces from other planets 
 ## What next?
 
 - Could you add matching background images for each of your planets?
-- If you have a [Sense HAT](https://www.raspberrypi.org/products/sense-hat/), could you use it to trigger the timer instead of pressing space or numbers on the keyboard?
-- Have you enjoyed this Astro Pi mission resource? Why not try one of our others, like this [Astronaut reaction time game](https://www.raspberrypi.org/learning/astronaut-reaction-times/)
+- If you have a [Sense HAT](https://www.raspberrypi.org/products/sense-hat/), could you use it to trigger the timer instead of using the keyboard?
+- Have you enjoyed this Astro Pi mission resource? Why not try one of our others, like this [Astronaut reaction time game](https://www.raspberrypi.org/learning/astronaut-reaction-times/)?
 
