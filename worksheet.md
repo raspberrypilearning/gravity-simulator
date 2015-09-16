@@ -24,7 +24,7 @@ You can recreate the effects of the force of gravity on Earth in this Scratch si
 
 	![Set costume center](images/set-costume-center.png)
 	  	
-1. Clive on the `scripts` tab of the sprite and save your Scratch project work by clicking on **File** and **Save As**. Name your progam **Gravity simulation** and save it in your home directory or some place that you can find it later.
+1. Click on the `scripts` tab of the sprite and save your Scratch project work by clicking on **File** and **Save As**. Name your progam **Gravity simulation** and save it in your home directory or some place that you can find it later.
 
 ## Create variables to store data
 
