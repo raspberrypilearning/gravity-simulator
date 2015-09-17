@@ -96,7 +96,7 @@ To demonstrate the effects of different gravitational forces from other planets 
 
 1. Place a `When space key pressed` control block onto the scripts area of the sprite. Click on the drop down box and replace `space` with `1`.
 
-1. Add a `set Gravity to 0` block underneath and replace the value `0` with the value `3.71`.
+1. Add a `set Gravity to 0` block underneath and replace the value `0` with the value `-3.71`.
 
 1. Then connect a `say hello for 2 seconds` looks block. Replace the text with `On Mars!` and the value `2` with `4`. This will help remind you which planet Mooncake finds herself on.
 
