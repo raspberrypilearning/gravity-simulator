@@ -10,7 +10,7 @@ You can recreate the effects of the force of gravity on Earth in this Scratch si
 
 ## Set the stage with a space theme
 
-1. To begin, open Scratch by clicking on **Menu** and **Programming**, followed by **Scratch**.
+1. If you are using a Raspberry Pi you can open Scratch by clicking on **Menu** and **Programming**, followed by **Scratch**. Alternatively you can use Scratch 2.0 online for this activity altho some of the blocks may be slightly different. 
 
 1. Create a new file by selecting **File** and **New**.
 
