@@ -10,7 +10,7 @@ You can recreate the effects of the force of gravity on Earth in this Scratch si
 
 ## Set the stage with a space theme
 
-1. If you are using a Raspberry Pi you can open Scratch by clicking on **Menu** and **Programming**, followed by **Scratch**. Alternatively you can use Scratch 2.0 online for this activity altho some of the blocks may be slightly different. 
+1. If you are using a Raspberry Pi you can open Scratch by clicking on **Menu** and **Programming**, followed by **Scratch**. Alternatively you can use Scratch 2.0 online for this activity although some of the blocks may be slightly different. 
 
 1. Create a new file by selecting **File** and **New**.
 
@@ -112,7 +112,7 @@ In your gravity simulator Mooncake falls and lands, but so far she can not act l
 
 ## Simulate gravity on other planets
 
-We know that `-9.81` is a value that calculates the force of gravity on our planet Earth. The force of gravity that pulls everything towards the Earth can be calculated as the mass (size and weight) times the acceleration of gravity. Because we roughly know how large planets are in our solar system it means that we can apply the same calculation to them. For example, the force of gravity on the Mars is `3.71` whereas on a much larger planet like Jupiter it is `24.8`!
+We know that `-9.81` is a value that calculates the force of gravity on our planet Earth. The force of gravity that pulls everything towards the Earth can be calculated as the mass (size and weight) times the acceleration of gravity. Because we roughly know how large planets are in our solar system it means that we can apply the same calculation to them. For example, the force of gravity on the planet Mars is `3.71` whereas on a much larger planet like Jupiter it is `24.8`!
 
 To demonstrate the effects of different gravitational forces from other planets on Mooncake you can simply add scripts to set the gravity variable.
 
