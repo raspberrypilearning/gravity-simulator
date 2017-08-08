@@ -10,7 +10,7 @@
 
 - Click on `Paint` to draw your own background. Select the rectangle icon and a green colour. It is important that you fill the rectangle with one solid colour. Draw a rectangle of green at the bottom of the image to represent the Earth. Once you are happy with your stage design, click **OK**.
 
-- You'll need to choose a sprite to use as your character. You can use the Scratch cat sprite, or you can use our [Mooncake - the Astro Cat sprite](files/Astro-cat.png).
+- You'll need to choose a sprite to use as your character. You can use the Scratch cat sprite, or you can use our [Mooncake - the Astro Cat sprite](images/Astro-cat.png).
 
 	*If your Raspberry Pi is connected to the internet you can download this sprite using the link. Save the image somewhere that you will be able to find it later on your Raspberry Pi.*
 
