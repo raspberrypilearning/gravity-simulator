@@ -3,7 +3,7 @@ title: Gravity Simulator
 hero_image: images/banner.png
 description: Learn about the effects of gravity and how to simulate them in Scratch
 original_url: https://raspberrypi.org/learning/gravity-simulator
-theme: red
+theme: blue   
 duration: 2
 listed: true
 ingredient: false
