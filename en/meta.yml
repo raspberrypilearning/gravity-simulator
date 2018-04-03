@@ -3,16 +3,20 @@ title: Gravity Simulator
 hero_image: images/banner.png
 description: Learn about the effects of gravity and how to simulate them in Scratch
 original_url: https://raspberrypi.org/learning/gravity-simulator
-theme: blue   
-duration: 2
+theme: blue
+duration: 1
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 interests: space
 technologies: scratch
-site_areas: ''
-steps:
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps: 
 - title: Introduction
 - title: What you will need
 - title: Simulate the effects of gravity on Mooncake
@@ -24,4 +28,3 @@ steps:
 - title: What goes up must come down
 - title: Simulate gravity on other planets
 - title: What next?
-
