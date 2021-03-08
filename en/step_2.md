@@ -16,7 +16,7 @@ To set up Scratch for offline use visit [our Scratch guide](https://learning-adm
 --- /collapse ---
 --- /task ---
 
-Adding a backdrop changes the way the stage looks.
+A backdrop changes the way the stage looks.
 
 --- task ---
 
@@ -54,7 +54,7 @@ Click on the **Stars** backdrop in the Stage pane.
 
 --- task ---
 
-Click on the Backdrops tab and select the **Rectanglw** tool:
+Click on the Backdrops tab and select the **Rectangle** tool:
 
 ![The Stage pane highlighted](images/brackdrops-tab.png)
 
@@ -62,7 +62,7 @@ Click on the Backdrops tab and select the **Rectanglw** tool:
 
 --- task ---
 
-Click on the **Filled** property then from the **Fill** tool move the sliders to pick a green colour:
+Click on the **Filled** property then from the Fill tool move the sliders to pick a green colour:
 
 ![The Stage pane highlighted](images/green-fill.png)
 

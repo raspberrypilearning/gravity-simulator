@@ -23,8 +23,5 @@ steps:
 - title: Set the gravitational pull
 - title: Landing on the ground
 - title: What goes up must come down
-- title: Simulate gravity on other planets
-- title: blah
-- title: blah
-- title: blah
+- title: Gravity on other planets
 - title: What next?

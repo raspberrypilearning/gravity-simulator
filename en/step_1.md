@@ -1,13 +1,13 @@
 ## Introduction
 
-Create a simulator in Scratch to show the real-life effects of gravity on different planets in our solar system. 
+Create a simulator in Scratch to show the real-life effects of gravity on different planets. 
 
 You will:
 
 - Learn about the force of gravity and how it is calculated.
 - Add and edit a **sprite** and a **backdrop** to set up your project.
 - Create `variables`{:class="block3variables"} to store data.
-- Use an `if`{:class="block3control"} condition to control your project.
+- Use an `if`{:class="block3control"} condition to detect `touch`{:class="block3sensing"}.
 - Insert `multiply operators`{:class="block3operators"} to calculate values.
 
 --- no-print ---
@@ -20,7 +20,7 @@ Click space bar to jump. Use number keys 1, 2, 3, 4 and 5 to see the gravity sim
 On which planet is Dot's jump the smallest?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/498064882/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/498064882/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task ---
