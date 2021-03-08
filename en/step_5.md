@@ -28,6 +28,7 @@ Click on the coloured circle and select the **Color picker** tool. Hover over th
 
 ![Color picker tool with land highlighted](images/color-picker.png)
 
+```blocks3
 when flag clicked
 go to x: (0) y: (150) // the top of the stage
 set [gravity v] to (-9.81) // the gravitational pull
@@ -37,6 +38,7 @@ forever
 change [velocity v] by ((gravity)*(0.1))
 change y by (velocity)
 end
+```
 
 --- /task ---
 

@@ -16,7 +16,7 @@ To set up Scratch for offline use visit [our Scratch guide](https://learning-adm
 --- /collapse ---
 --- /task ---
 
-A backdrop changes the way the stage looks.
+A backdrop sets the scene by changes the way the Stage looks.
 
 --- task ---
 
@@ -28,7 +28,7 @@ Click on **Choose a Backdrop** from the Stage pane:
 
 --- task ---
 
-Click on the **Space** category and select the **Stars** backdrop:
+Select the **Space** category and choose the **Stars** backdrop:
 
 ![Stars backdrop highlighted in the Space category](images/stars-backdrop.png)
 
@@ -36,7 +36,7 @@ Click on the **Space** category and select the **Stars** backdrop:
 
 --- task ---
 
-Your stage should now show the **Stars** backdrop:
+Your stage should now look like this:
 
 ![The stage showing the new Stars backdrop](images/stage-backdrop.png)
 
@@ -56,7 +56,7 @@ Click on the **Stars** backdrop in the Stage pane.
 
 Click on the Backdrops tab and select the **Rectangle** tool:
 
-![The Stage pane highlighted](images/brackdrops-tab.png)
+![The Stage pane highlighted](images/backdrops-tab.png)
 
 --- /task ---
 
@@ -81,6 +81,8 @@ Use the mouse to draw a green rectangle at the bottom of the **Stars** backdrop:
 --- /task ---
 
 --- task ---
+
+## Save your project
 
 Type 'Gravity simulator' into the project title box at the top of the screen. 
 

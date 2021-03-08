@@ -53,9 +53,9 @@ set [gravity v] to (-3.71)
 
 Repeat the steps above for each of the following, remembering to set a new number to switch between planets in the control block `when key pressed`{:class="block3control"} block:
 
-	- Jupiter = `-24.8`
-	- The Moon = `-1.62`
-	- Pluto = `-0.65`
++ Jupiter = `-24.8`
++ The Moon = `-1.62`
++ Pluto = `-0.65`
 
 --- /task ---
 
