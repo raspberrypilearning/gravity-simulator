@@ -15,7 +15,9 @@ You will:
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click space bar to jump. Use number keys 1, 2, 3, 4 and 5 to see the gravity simulation for different planets. 
+Click the space bar to jump. 
+
+Use number keys 1, 2, 3, 4 and 5 to see the gravity simulation for different planets. 
 
 On which planet is Dot's jump the smallest?
 </div>
