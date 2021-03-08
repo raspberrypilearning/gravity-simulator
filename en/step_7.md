@@ -1,4 +1,4 @@
-## The simulation loop
+## Simulate gravity on other planets
 
 In this program you want to change the velocity variable to simulate how gravity works. In physics there are lots of mathematical equations that we use to calculate different forces, including gravity.
 

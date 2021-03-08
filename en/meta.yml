@@ -18,13 +18,13 @@ version: 3
 last_tested: 2017-01-01
 steps: 
 - title: Introduction
-- title: What you will need
-- title: Simulate the effects of gravity on Mooncake
-- title: Set the stage with a space theme
-- title: Create variables to store data
-- title: Setting the start position
-- title: The simulation loop
+- title: Create your backdrop
+- title: Add an astronaut
+- title: Set the gravitational pull
 - title: Landing on the ground
 - title: What goes up must come down
 - title: Simulate gravity on other planets
+- title: blah
+- title: blah
+- title: blah
 - title: What next?
