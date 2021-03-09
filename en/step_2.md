@@ -16,7 +16,7 @@ To set up Scratch for offline use visit [our Scratch guide](https://learning-adm
 --- /collapse ---
 --- /task ---
 
-A backdrop sets the scene by changes the way the Stage looks.
+A backdrop sets the scene by changing the way the Stage looks.
 
 --- task ---
 
@@ -46,7 +46,7 @@ You will create land at the bottom of the **Stars** backdrop to simulate a plane
 
 --- task ---
 
-Click on the **Stars** backdrop in the Stage pane. 
+Select the **Stars** backdrop from the Stage pane. 
 
 ![The Stage pane highlighted](images/stage-pane-selected.png)
 
@@ -54,7 +54,7 @@ Click on the **Stars** backdrop in the Stage pane.
 
 --- task ---
 
-Click on the Backdrops tab and select the **Rectangle** tool:
+Click on the Backdrops tab and choose the **Rectangle** tool:
 
 ![The Stage pane highlighted](images/backdrops-tab.png)
 
@@ -62,7 +62,7 @@ Click on the Backdrops tab and select the **Rectangle** tool:
 
 --- task ---
 
-Click on the **Filled** property then from the Fill tool move the sliders to pick a green colour:
+Select the **Filled** property then from the Fill tool move the sliders to pick a green colour:
 
 ![The Stage pane highlighted](images/green-fill.png)
 

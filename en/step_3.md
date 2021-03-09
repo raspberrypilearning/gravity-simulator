@@ -4,7 +4,7 @@ Sprites are objects in Scratch. Can you find a sprite that has already been incl
 
 --- task ---
 
-Delete the cat Sprite1 sprite by clicking the trash can in the Sprite list:
+Delete the cat **Sprite1** sprite by clicking the trash can in the Sprite list:
 
 ![The trash can of Sprite1 highlighted](images/delete-sprite.png)
 
