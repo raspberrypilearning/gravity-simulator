@@ -8,7 +8,7 @@ You will set the **Dot** sprite to go to the top of the stage when the project s
 
 --- task ---
 
-Click on the Code tab for the **Dot** sprite and drag a `When flag clicked`{:class="block3events"} block into the Code area. Add a `go to x y`{:class="block3motion"} block underneath changing the `y`{:class="block3motion"} value to `150`. 
+Click on the **Code** tab for the **Dot** sprite and drag a `When flag clicked`{:class="block3events"} block into the Code area. Add a `go to x y`{:class="block3motion"} block underneath changing the `y`{:class="block3motion"} value to `150`. 
 
 ```blocks3
 when flag clicked
