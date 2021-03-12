@@ -1,105 +1,24 @@
-## Set the gravitational pull
+## Set the stage with a space theme
 
-Every piece of matter in the universe attracts every other piece of matter. The more matter there is, the stronger the attraction. 
+- If you are using a Raspberry Pi you can open Scratch by clicking on **Menu** and **Programming**, followed by **Scratch**. Alternatively, you can use Scratch 2.0 online for this activity although some of the blocks may be slightly different. 
 
-Because you walk on the surface of a huge lump of matter, the Earth, you can feel this downward pull. This pull or attraction we feel is called **gravity**.
+- Create a new file by selecting **File** and **New**.
 
-You will set the **Dot** sprite to go to the top of the stage when the project starts.
+- Delete the Scratch cat sprite by right-clicking on it and selecting **Delete** from the menu that is displayed.
 
---- task ---
+- For this project, you need to create a new background to act as the Earth. To do this, click on `Stage` in the sprites palette and then click on `Backgrounds` next to the `Scripts` tab.
 
-Click on the **Code** tab for the **Dot** sprite and drag a `When flag clicked`{:class="block3events"} block into the Code area. Add a `go to x y`{:class="block3motion"} block underneath changing the `y`{:class="block3motion"} value to `150`: 
+- Click on `Paint` to draw your own background. Select the rectangle icon and a green colour. It is important that you fill the rectangle with one solid colour. Draw a rectangle of green at the bottom of the image to represent the Earth. Once you are happy with your stage design, click **OK**.
 
-```blocks3
-when flag clicked
-go to x: (0) y: (150) // the top of the stage
-```
+- You'll need to choose a sprite to use as your character. You can use the Scratch cat sprite, or you can use our [Mooncake - the Astro Cat sprite](images/Astro-cat.png).
 
-**Test:** Click on the green flag to test that the **Dot** sprite moves to the top of the Stage.
+	*If your Raspberry Pi is connected to the internet you can download this sprite using the link. Save the image somewhere that you will be able to find it later on your Raspberry Pi.*
 
---- /task ---
+- Next, add a new sprite by clicking on the middle icon on the sprites palette, ![Choose new sprite from file](images/import-sprite-icon.png) selecting `Astro-cat.png` from the choices and clicking **OK**.
 
-To calculate the force of gravity you will need two variables.
+- In order for your gravity simulator to work with this sprite, you will need to `set the costume center` of Mooncake the Astro Cat by selecting the sprite, then clicking on `Costumes` followed by `Edit`. In the Paint Editor window you will see a button with a plus symbol on it. When clicked, it will show a crosshair over the sprite which you will be able to move with your mouse. Move it so that it selects the lower half of Mooncake like this and when you are happy click **OK**:
 
---- task ---
+	![Set costume center](images/set-costume-center.png)
 
-Go to the `Variables`{:class="block3variables"} blocks menu and click on the **Make a Variable** button:
+- Click on the `scripts` tab of the sprite and save your Scratch project work by clicking on **File** and **Save As**. Name your program **Gravity simulation** and save it in your home directory or some place that you can find it later.
 
-![Variables blocks menu with make a variable button](images/make-a-variable.png)
-
-Type 'gravity' as your New variable name and select `For all sprites`:
-
-![gravity variable with for all sprites selected](images/new-gravity-variable.png)
-
---- /task ---
-
---- task ---
-
-Create a second new variable, this time name it 'velocity'. 
-
-A number of `Variable`{:class="block3variables"} blocks are available to use. Your new variables will also appear on the Stage:
-
-![Variables blocks menu with variables visible on the stage](images/new-variables.png)
---- /task ---
-
-First you are going to simulate gravity on Earth. When an object falls towards Earth it gets faster and faster. The force of gravity on Earth is -9.81 metres per second per second (meaning that for every second of free fall an object's speed will increase 9.81 metres per second).
-
---- task ---
-
-Add two `set variable to`{:class="block3variables"} blocks to the bottom of your script. Change the values to represent the force of gravity on Earth:
-
-```blocks3
-when flag clicked
-go to x: (0) y: (150) // the top of the stage
-+ set [gravity v] to (-9.81) // the gravitational pull
-+ set [velocity v] to (0) // the current speed  
-```
-
---- /task ---
-
-The mathematical equation used to calculate velocity is 'Velocity = Gravity x Time'. In our simulation `velocity`{:class="block3variables"} = `gravity`{:class="block3variables"} x `0.1`.
-
---- task ---
-
-Add a `forever`{:class="block3control"} loop to the bottom of your script. To create the calculation add a `change velocity by`{:class="block3variables"} block into the loop and insert a `multiply`{:class="block3operators"} block inside. 
-
-Finally add a `gravity`{:class="block3variables"} block and type value `0.1`:
-
-```blocks3
-when flag clicked
-go to x: (0) y: (150) // the top of the stage
-set [gravity v] to (-9.81) // the gravitational pull
-set [velocity v] to (0)  
-+ forever
-change [velocity v] by ((gravity)*(0.1))
-end
-```
-
---- /task ---
-
-You can now use your velocity variable to change the speed of the **Dot** sprite.
-
---- task ---
-
-Add a `change y by`{:class="block3motion"} block and insert the `velocity`{:class="block3variables"} block inside:
-
-```blocks3
-when flag clicked
-go to x: (0) y: (150) // the top of the stage
-set [gravity v] to (-9.81) // the gravitational pull
-set [velocity v] to (0)   
-forever
-change [velocity v] by ((gravity)*(0.1))
-+ change y by (velocity)
-end
-```
-
---- /task ---
-
---- task ---
-
-**Test:** Try your project to check that the **Dot** sprite falls from the top of the stage when you click the green flag. 
-
---- /task ---
-
---- save ---
