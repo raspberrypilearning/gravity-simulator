@@ -2,7 +2,7 @@
 
 In space it feels like everything is floating but on Earth everything and everybody is pulled down towards the ground. 
 
-You will set up your project with a space backdrop and a piece of land pulling the **Dot** sprite towards it. 
+You will set up your project with the **Stars** backdrop and a piece of land pulling the **Dot** sprite towards it. 
 
 --- task ---
 
@@ -46,7 +46,7 @@ You will create land at the bottom of the **Stars** backdrop to simulate a plane
 
 --- task ---
 
-Select the **Stars** backdrop from the Stage pane. 
+Click on the **Stars** backdrop from the Stage pane. 
 
 ![The Stage pane highlighted](images/stage-pane-selected.png)
 
@@ -62,7 +62,7 @@ Click on the Backdrops tab and choose the **Rectangle** tool:
 
 --- task ---
 
-Select the **Filled** property then from the Fill tool move the sliders to pick a green colour:
+Select the **Filled** property. From the menu move the sliders to pick a green colour:
 
 ![The Stage pane highlighted](images/green-fill.png)
 
@@ -99,5 +99,5 @@ If you are not online or you do not have a Scratch account, you can click on Sav
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Sir Isaac Newton**</span> described gravity in 1666 at a time when laws of nature were unknown. It is rumoured that stumbled upon the notion of gravity when he watched an apple fall from a tree. The apple fell straight to the ground instead of moving sideways or floating away. 
+<span style="color: #0faeb0">**Sir Isaac Newton**</span> described gravity in 1666 at a time when laws of nature were unknown. It is rumoured that he stumbled upon the notion of gravity when he watched an apple fall from a tree. The apple fell straight to the ground instead of moving sideways or floating away. 
 </p>
