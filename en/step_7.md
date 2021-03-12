@@ -51,7 +51,7 @@ set [gravity v] to (-3.71)
 
 --- task ---
 
-Repeat the steps above for each of the following, remembering to set a new number to switch between planets in the control block `when key pressed`{:class="block3control"} block:
+Repeat the steps above for each of the following, remembering to choose a new number in the `when space key pressed`{:class="block3events"} block for each planet:
 
 + Jupiter = `-24.8`
 + The Moon = `-1.62`
@@ -60,6 +60,8 @@ Repeat the steps above for each of the following, remembering to set a new numbe
 --- /task ---
 
 --- task ---
+
+**Test:** Click on the green flag to run your simulation again. Press the keys you have chosen to see the gravitational force on eah planet. How do they differ from each other?
 
 --- /task ---
 
