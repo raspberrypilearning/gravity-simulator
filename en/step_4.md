@@ -8,7 +8,7 @@ You will set the **Dot** sprite to go to the top of the stage when the project s
 
 --- task ---
 
-Click on the **Code** tab for the **Dot** sprite and drag a `When flag clicked`{:class="block3events"} block into the Code area. Add a `go to x y`{:class="block3motion"} block underneath changing the `y`{:class="block3motion"} value to `150`. 
+Click on the **Code** tab for the **Dot** sprite and drag a `When flag clicked`{:class="block3events"} block into the Code area. Add a `go to x y`{:class="block3motion"} block underneath changing the `y`{:class="block3motion"} value to `150`: 
 
 ```blocks3
 when flag clicked
@@ -63,7 +63,7 @@ The mathematical equation used to calculate velocity is 'Velocity = Gravity x Ti
 
 Add a `forever`{:class="block3control"} loop to the bottom of your script. To create the calculation add a `change velocity by`{:class="block3variables"} block into the loop and insert a `multiply`{:class="block3operators"} block inside. 
 
-Finally add a `gravity`{:class="block3variables"} block and type value `0.1`
+Finally add a `gravity`{:class="block3variables"} block and type value `0.1`:
 
 ```blocks3
 when flag clicked
@@ -81,7 +81,7 @@ You can now use your velocity variable to change the speed of the **Dot** sprite
 
 --- task ---
 
-Add a `change y by`{:class="block3motion"} block and insert the `velocity`{:class="block3variables"} block inside.
+Add a `change y by`{:class="block3motion"} block and insert the `velocity`{:class="block3variables"} block inside:
 
 ```blocks3
 when flag clicked
