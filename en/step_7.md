@@ -1,25 +1,68 @@
-## The simulation loop
+## Simulate gravity on other planets
 
-In this program you want to change the velocity variable to simulate how gravity works. In physics there are lots of mathematical equations that we use to calculate different forces, including gravity.
+We know that `-9.81` is a value that calculates the force of gravity on our planet Earth. The force of gravity that pulls everything towards the Earth can be calculated as the mass (size and weight) times the acceleration of gravity. 
 
-To change the velocity variable, you can use this calculation:
+Because we roughly know how large planets are in our solar system, it means that we can apply the same calculation to them. For example, the force of gravity on the planet Mars is `-3.71`, whereas on a much larger planet like Jupiter it is `-24.8`!
 
+To demonstrate the effects of different gravitational forces from other planets on the **Dot** sprite, you can simply add scripts to set the gravity variable.
+
+--- task ---
+
+Start a new script by dragging a `when space key pressed`{:class="block3events"} block to the Code area. Replace `space` with `1`. 
+
+```blocks3
+when [1 v] key pressed 
 ```
-Velocity = Gravity x Timestep
-Velocity = -9.81   x 0.1
+
+--- /task ---
+
+--- task ---
+
+Add a `set gravity to`{:class="block3variables"} block and replace the value.
+
+```blocks3
+when [1 v] key pressed 
++ set [gravity v] to (-3.71) // force of gravity on Mars
 ```
 
-The value `0.1` is a time step in this program, so that each time around the loop it will be multiplied by `gravity` (which is `-9.81`) and output the velocity.
+--- /task ---
 
-- Dock a `forever` block (from the `Control` section) beneath your `set velocity` block and place a `change velocity by 0` Variables block inside the `forever` loop.
+--- task ---
 
-- Next, take a multiplier Operator block (`0 * 0`) and place it inside the space at the end of the variable block.
+To let users of the simulation know which planet is being shown add a `say hello for 2 seconds`{:class="block3looks"} block and change the values.
 
-- Drag the `gravity` variable and place it in the right side of the multiplication operator, and then type `0.1` in the other.
+```blocks3
+when [1 v] key pressed 
+set [gravity v] to (-3.71)
++ say [On Mars!] for (4) seconds
+```
 
-- The last block needed is a motion block to move the Mooncake sprite. Use the `change y by` Motion block and add it into the loop, then drag the `velocity` variable and add it into the white space in the motion block. The script should look like this:
+--- /task ---
 
-	![Gravity Simulation Script 1](images/script1.png)
+--- task ---
 
-- Save your program and click the green flag to check that it works.
+**Test:** Click on the green flag to run your simulation. Press the `1` number key to see the gravitational force on Mars. How does it differ from Earth? 
 
+![stage showing 1 key pressed](images/on-mars.png)
+
+
+
+--- /task ---
+
+--- task ---
+
+Repeat the steps above for each of the following, remembering to choose a new number in the `when space key pressed`{:class="block3events"} block for each planet:
+
++ Jupiter = `-24.8`
++ The Moon = `-1.62`
++ Pluto = `-0.65`
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click on the green flag to run your simulation again. Press the keys you have chosen to see the gravitational force on eah planet. How do they differ from each other?
+
+--- /task ---
+
+--- save ---
