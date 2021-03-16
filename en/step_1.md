@@ -5,7 +5,7 @@ Create a simulator in Scratch to show the real-life effects of gravity on differ
 You will:
 
 - Learn about the force of gravity and how it is calculated.
-- Add an `if`{:class="block3control"} condition to detect and respond to `touching colour`{:class="block3sensing"}.
+- Add an `if`{:class="block3control"} block to detect and respond to `touching colour`{:class="block3sensing"}.
 - Use `multiply`{:class="block3operators"} operators to calculate values and store numbers in `variables`{:class="block3variables"}.
 
 --- no-print ---
