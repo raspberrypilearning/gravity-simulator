@@ -11,16 +11,15 @@ You will:
 --- no-print ---
 --- task ---
 ### Try it
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1">  
+  
 Use number keys 1, 2, 3, 4 and 5 to set the gravity simulation for different planets. 
 
 Click the space bar to jump. On which planet is the **Dot** sprite's jump the smallest?
-</div>
+
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/498064882/?autostart=false" frameborder="0"></iframe>
 </div>
-</div>
+
 --- /task ---
 --- /no-print ---
 
