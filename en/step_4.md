@@ -8,11 +8,11 @@ You will set the **Dot** sprite to go to the top of the Stage when the project s
 
 --- task ---
 
-Click on the **Code** tab for the **Dot** sprite and drag a `When flag clicked`{:class="block3events"} block into the Code area. Add a `go to x y`{:class="block3motion"} block underneath and change the `y`{:class="block3motion"} value to `150`: 
+Click on the **Code** tab for the **Dot** sprite and drag a `when flag clicked`{:class="block3events"} block into the Code area. Add a `go to x y`{:class="block3motion"} block underneath and change the `y`{:class="block3motion"} value to `150`: 
 
 ```blocks3
 when flag clicked
-go to x: (0) y: (150) //The top of the stage
+go to x: (0) y: (150) //The top of the Stage
 ```
 
 **Test:** Click on the green flag to test that the **Dot** sprite moves to the top of the Stage.
@@ -23,7 +23,7 @@ To calculate the force of gravity, you will need two variables.
 
 --- task ---
 
-Go to the `Variables`{:class="block3variables"} blocks menu and click on the **Make a Variable** button:
+Go to the `variables`{:class="block3variables"} blocks menu and click on the **Make a Variable** button:
 
 ![Variables blocks menu with the 'Make a Variable' button highlighted.](images/make-a-variable.png)
 
@@ -37,12 +37,12 @@ Type `gravity` as your **New variable** name and select **For all sprites**:
 
 Create a second new variable; this time, name it `velocity`. 
 
-A number of `Variable`{:class="block3variables"} blocks are now available to use. Your new variables will also appear on the Stage:
+A number of `variable`{:class="block3variables"} blocks are now available to use. Your new variables will also appear on the Stage:
 
 ![Variables blocks menu with variables visible on the Stage.](images/new-variables.png)
 --- /task ---
 
-First, you are going to simulate gravity on Earth. When an object falls towards Earth it gets faster and faster. The force of gravity on Earth is -9.81 metres per second per second (meaning that for every second of free fall, an object's speed will increase by 9.81 metres per second).
+First, you are going to simulate gravity on Earth. When an object falls towards Earth, it gets faster and faster. The force of gravity on Earth is –9.81 metres per second per second (meaning that for every second of free fall, an object's speed will increase by 9.81 metres per second).
 
 --- task ---
 
@@ -50,14 +50,14 @@ Add two `set variable to`{:class="block3variables"} blocks to the bottom of your
 
 ```blocks3
 when flag clicked
-go to x: (0) y: (150) //The top of the stage
+go to x: (0) y: (150) //The top of the Stage
 + set [gravity v] to (-9.81) //The gravitational pull
 + set [velocity v] to (0) //The current speed  
 ```
 
 --- /task ---
 
-The mathematical equation used to calculate velocity is 'Velocity = Gravity x Time'. In your simulation, `velocity`{:class="block3variables"} = `gravity`{:class="block3variables"} x `0.1`.
+The mathematical equation used to calculate velocity is velocity = gravity × time. In your simulation, `velocity`{:class="block3variables"} = `gravity`{:class="block3variables"} × `0.1`.
 
 --- task ---
 
@@ -67,7 +67,7 @@ Finally, add a `gravity`{:class="block3variables"} block and type the value `0.1
 
 ```blocks3
 when flag clicked
-go to x: (0) y: (150) //The top of the stage
+go to x: (0) y: (150) //The top of the Stage
 set [gravity v] to (-9.81) //The gravitational pull
 set [velocity v] to (0)  
 + forever
@@ -85,7 +85,7 @@ Add a `change y by`{:class="block3motion"} block and insert the `velocity`{:clas
 
 ```blocks3
 when flag clicked
-go to x: (0) y: (150) //The top of the stage
+go to x: (0) y: (150) //The top of the Stage
 set [gravity v] to (-9.81) //The gravitational pull
 set [velocity v] to (0)   
 forever
@@ -98,7 +98,7 @@ end
 
 --- task ---
 
-**Test:** Try your project to check that the **Dot** sprite falls from the top of the stage when you click the green flag. 
+**Test:** Try your project to check that the **Dot** sprite falls from the top of the Stage when you click the green flag. 
 
 --- /task ---
 
