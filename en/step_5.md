@@ -8,7 +8,7 @@ Place an `if`{:class="block3control"} block inside the `forever`{:class="block3c
 
 ```blocks3
 when flag clicked
-go to x: (0) y: (150) //The top of the stage
+go to x: (0) y: (150) //The top of the Stage
 set [gravity v] to (-9.81) //The gravitational pull
 set [velocity v] to (0)   
 forever
@@ -30,7 +30,7 @@ Click on the coloured circle and select the **Color picker** tool. Hover over th
 
 ```blocks3
 when flag clicked
-go to x: (0) y: (150) //The top of the stage
+go to x: (0) y: (150) //The top of the Stage
 set [gravity v] to (-9.81) //The gravitational pull
 set [velocity v] to (0) //The current speed  
 forever
