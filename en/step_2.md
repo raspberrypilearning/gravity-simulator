@@ -56,7 +56,7 @@ Click on the **Stars** backdrop from the Stage pane.
 
 Click on the **Backdrops** tab and choose the **Rectangle** tool:
 
-![The Stage pane highlighted.](images/backdrops-tab.png)
+![The backdrops tab with stars backdrop highlighted and the rectangle tool selected.](images/backdrops-tab.png)
 
 --- /task ---
 
@@ -64,7 +64,7 @@ Click on the **Backdrops** tab and choose the **Rectangle** tool:
 
 Select the **Filled** property. From the menu, move the sliders to pick a green colour:
 
-![The Stage pane highlighted.](images/green-fill.png)
+![The backdrops tab with fill colour drop down menu shown and sliders moved to colour 39, saturation 71 and brightness 71 to produce a green colour.](images/green-fill.png)
 
 --- /task ---
 
@@ -72,11 +72,11 @@ Select the **Filled** property. From the menu, move the sliders to pick a green 
 
 Use the mouse to draw a green rectangle at the bottom of the **Stars** backdrop:
 
-![The Stage pane highlighted.](images/green-rectangle.png)
+![The backdrops tab with new filled green rectangle across the bottom fifth of the stars backdrop.](images/green-rectangle.png)
 
 **Tip:** Use the **Undo** tool if you need to remove your rectangle so you can redraw it. 
 
-![The Stage pane highlighted.](images/undo.png)
+![The Undo icon, a curved arrow pointing towards the left.](images/undo.png)
 
 --- /task ---
 
@@ -86,13 +86,13 @@ Use the mouse to draw a green rectangle at the bottom of the **Stars** backdrop:
 
 Type `Gravity simulator` into the project title box at the top of the screen. 
 
-![The Stage pane highlighted.](images/project-title.png)
+![The top menu showing 'Gravity simulator' typed in the project name box.](images/project-title.png)
 
 **Tip:** Give your projects helpful names so that you can easily find them when you have lots of projects.
 
 Next, click on **File**, and then on **Save now** to save your project.
 
-![The Stage pane highlighted.](images/save-now.png)
+![The file drop down menu with Save now selected.](images/save-now.png)
 
 If you are not online or you do not have a Scratch account, you can click on **Save to your computer** to save a copy of your project.
 
