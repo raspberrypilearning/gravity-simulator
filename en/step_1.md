@@ -12,7 +12,7 @@ You will:
 --- task ---
 ### Try it
   
-Use number keys 1, 2, 3, 4, and 5 to set the gravity simulation for different planets. 
+Use number keys **1**, **2**, **3**, **4**, and **5** to set the gravity simulation for different planets and the moon. 
 
 Click the space bar to jump. On which planet is the **Dot** sprite's jump the smallest?
 
