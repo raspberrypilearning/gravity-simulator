@@ -16,12 +16,14 @@ hardware: ''
 software: scratch
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
+  completion: engaged
 - title: Create your backdrop
 - title: Add an astronaut
 - title: Set the gravitational pull
 - title: Landing on the ground
 - title: What goes up must come down
+  completion: internal
 - title: Gravity on other planets
 - title: What next?
